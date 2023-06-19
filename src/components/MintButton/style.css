@@ -1,0 +1,90 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    color: #fff;
+}
+
+.buttons-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: .6em .8em;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase !important;
+    font-family: 'Poppins';
+}
+
+.buy{
+    background-color: #0093E9 !important;
+    color: #fff;
+    box-shadow: 2px 2px 5px #000;
+}
+
+.connect{
+    background-color: yellow;
+    color: #000;
+    width: 12em !important;
+}
+
+.inc-buttons p{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.inc-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inc-buttons input{
+    width: 50%;
+    font-size: 1.6em;
+    font-family: 'Poppins';
+    padding: .4em;
+    text-align: center;
+}
+
+.buy-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mint-button{
+    margin-top: 1em;
+    width: 8em;
+    font-size: 1.2em;
+    margin-right: 1em;
+    background-color: yellow;
+    box-shadow: 2px 2px 5px #000;
+
+}
+
+.amount {
+    color: #fff;
+    margin: 0 1em;
+}
+
+.price-wrap h4{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-top: 1em;
+}
+
+
+@media screen and (max-width: 1024px){
+    .mint-button{
+        width: 8em;
+    }
+}
